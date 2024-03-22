@@ -142,7 +142,7 @@ p {
 }
 
 
-#player2Name, #neuenamen, #neustart, #NamenFestlegen, #player1Name, #player1Points, #player2Points{
+#player2Name, #neuenamen, #neustart, #NamenFestlegen, #player1Name, #player1Points, #player2Points, #playerpoints{
 
     width: 125px;
     height: 40px;
