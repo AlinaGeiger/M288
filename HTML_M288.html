@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="CSS_M288.css">
+    <!-- JavaScript -->
+    <script src="Javascript_M288.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+        <div id="playerInput">
+            <input type="text" id="player1Name" placeholder="Spieler 1 Name">
+            <input type="text" id="player2Name" placeholder="Spieler 2 Name">
+            <button id="NamenFestlegen" onclick="setPlayerNames()">Namen festlegen</button>
+        </div> 
+
+        
+        <br><br>                                                                                               
+        <div class="felder">
+            <div class="row">
+                <input type="text" id="b1" class="cell" onclick="myfunc_3();" readonly>
+                <input type="text" id="b2" class="cell" onclick="myfunc_4();" readonly>
+                <input type="text" id="b3" class="cell" onclick="myfunc_5();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id="b4" class="cell" onclick="myfunc_6();" readonly>
+                <input type="text" id="b5" class="cell" onclick="myfunc_7();" readonly>
+                <input type="text" id="b6" class="cell" onclick="myfunc_8();" readonly>
+            </div>
+            <div class="row">
+                <input type="text" id="b7" class="cell" onclick="myfunc_9();" readonly>
+                <input type="text" id="b8" class="cell" onclick="myfunc_10();" readonly>
+                <input type="text" id="b9" class="cell" onclick="myfunc_11();" readonly>
+            </div>
+        </div>
+        <br><br><br>
+
+        <button class="neubutton" id="neustart" onclick="myfunc_2()">Neue Runde</button>
+        
+
+        <button class="neubutton" id="neuenamen"  onclick="clearInputFields(); location.reload()"> Neustart </button> 
+
+    
+
+
+        <div class="playerPoints">
+            <div>
+                <p id="player1Points"> Spieler 1 Punkte:</p>
+                <p id="player1Points">0</p>
+            </div>
+            <div>
+                <p id="player2Points">Spieler 2 Punkte:</p>
+                <p id="player2Points">0</p>
+            </div>
+        </div>
+        
+        <br><br>
+        <p id="print"></p>
+        
+    </div>
+</body>
+
+</html>
