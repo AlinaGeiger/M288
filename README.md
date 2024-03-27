@@ -26,9 +26,13 @@
 
 
 7. **Spiel hochladen:**
-- Spiel wurde hochgeladen.
+   - Spiel wurde hochgeladen.
 
 
-**TEST-PROTOKOLL**
+**TEST-PROTOKOLL**$
+
+1. **Namen werden registriert**
+   - ![grafik](https://github.com/AlinaGeiger/M288/assets/118448793/27046f78-37c6-4fdc-b081-eace7908e790)
+
 
 
