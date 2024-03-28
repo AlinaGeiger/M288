@@ -1,35 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Geomanist&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Intro&display=swap');
- 
 html{
 box-sizing: border-box;
 }
-
+ 
 *, *::before, *::after {
     box-sizing: inherit;
 }
-
+ 
 h1 {
     color: #95c11f;
     margin-bottom: -5px;
     font-family: 'Geomanist Black', sans-serif;
 }
- 
 p {
     margin-bottom: -10px;
     font-family: 'Intro Light', sans-serif;
 }
- 
 .felder {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
- 
 .row {
     display: flex;
 }
- 
 .cell {
     border: none;
     width: 80px;
@@ -42,11 +37,10 @@ p {
     cursor: pointer;
     font-family: 'Intro Light', sans-serif;
 }
- 
 .cell:active {
     outline: none;
 }
-
+ 
  
 /* 3*3 Raster*/
 #b1{
@@ -54,96 +48,84 @@ p {
     border-right: 1px solid #95c11f;
     font-family: 'Intro Light', sans-serif;
 }
- 
 #b2{
     border-bottom: 1px solid #95c11f;
     border-right: 1px solid #95c11f;
     border-left: 1px solid #95c11f;
     font-family: 'Intro Light', sans-serif;
 }
- 
 #b3{
     border-bottom: 1px solid #95c11f;
     border-left: 1px solid #95c11f;
     font-family: 'Intro Light', sans-serif;
 }
- 
 #b4{
     border-top: 1px solid #95c11f;
     border-bottom: 1px solid #95c11f;
     border-right: 1px solid #95c11f;
     font-family: 'Intro Light', sans-serif;
 }
- 
 #b5{
     border: 1px solid #95c11f;
     font-family: 'Intro Light', sans-serif;
 }
- 
 #b6{
     border-top: 1px solid #95c11f;
     border-bottom: 1px solid #95c11f;
     border-left: 1px solid #95c11f;
     font-family: 'Intro Light', sans-serif;
 }
- 
 #b7{
     border-top: 1px solid #95c11f;
     border-right: 1px solid #95c11f;
     font-family: 'Intro Light', sans-serif;
 }
- 
 #b8{
     border-top: 1px solid #95c11f;
     border-right: 1px solid #95c11f;
     border-left: 1px solid #95c11f;
     font-family: 'Intro Light', sans-serif;
 }
- 
 #b9{
     border-top: 1px solid #95c11f;
     border-left: 1px solid #95c11f;
     font-family: 'Intro Light', sans-serif;
 }
- 
 /* Neustart Knopf */
 #neustart {
-
+ 
     width: 95px;
     height: 50px;
     border: 1px solid #95c11f;
     margin-left: auto;
     border-radius: 8px;
     font-family: 'Intro Light', sans-serif;
- 
     background-color: #F0F0F0;
     color: #000000;
     font-size: 20px;
     cursor: pointer;
 }
- 
 #neuenamen {
-
+ 
     width: 95px;
     height: 50px;
     border: 1px solid #95c11f;
     margin-left: auto;
     border-radius: 8px;
     font-family: 'Intro Light', sans-serif;
- 
     background-color: #F0F0F0;
     color: #000000;
     font-size: 20px;
     cursor: pointer;
 }
-
+ 
 #playerInput{
     margin-top: 50px;
 }
-
-
+ 
+ 
 #player2Name, #neuenamen, #neustart, #NamenFestlegen, #player1Name, #player1Points, #player2Points, #playerpoints{
-
+ 
     width: 125px;
     height: 40px;
     border: 1px solid #95c11f;
@@ -152,25 +134,22 @@ p {
     margin-right: auto;
     border-radius: 8px;
     font-family: 'Intro Light', sans-serif;
-   
  
     background-color: #F0F0F0;
     color: #000000;
     font-size: 15px;
     cursor: pointer;
 }
-
+ 
 .neubutton{
     padding: 0%;
 }
  
-
-
+ 
+ 
 #NamenFestlegen{
    color: #95c11f;
 }
- 
- 
  
 /* Spieler __ ist dran*/
 #print {
@@ -179,21 +158,27 @@ p {
     font-size: 20px;
 }
  
-
+ 
 #main {
     text-align: center;
 }
- 
 /* Spiel anleitung */
 #text-anfang {
     font-family: 'Intro Light', sans-serif;
     color: #F0F0F0;
 }
- 
 body {
     background-image: url(fabio_ecke.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 1%;
     background-color: #4A4A4A;
+}
+ 
+.cell.player1 {
+    background-color: #ff9999; /* Beispiel-Farbe für Spieler 1 */
+}
+ 
+.cell.player2 {
+    background-color: #99ccff; /* Beispiel-Farbe für Spieler 2 */
 }
